@@ -22,7 +22,7 @@ const chatGPTKey = 'sk-'; // Paste the API key here
 
 Replace `'sk-*****'` with your actual OpenAI GPT-3 API key.
 
-2. **Start the local server**
+2. *Start the local server*
 
 Navigate to the directory containing `index.html` and start your local server. For example, if you're using Python's SimpleHTTPServer, you can start it with the command:
 
