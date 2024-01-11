@@ -26,7 +26,7 @@ Replace `'sk-*****'` with your actual OpenAI GPT-3 API key.
 
 Navigate to the directory containing `index.html` and start your local server. For example, if you're using Python's SimpleHTTPServer, you can start it with the command:
 
-```html
+```
 python -m SimpleHTTPServer
 ```
 
