@@ -10,23 +10,23 @@ Ensure you have the following:
 - A local web server (like Python's SimpleHTTPServer, Node's http-server, etc.). Or you can use Live Server feature from VSCode
 - An API key from OpenAI for API access. Or a laptop/PC with >8GB RAM
 
-### Start the app using OpenAI API
+## Start the app using OpenAI API
 
-1. *****Set up the API key*****
+1. **Set up the API key**
 
 Open the `index.html` file and locate the following line:
 
-```abcd
-const chatGPTKey = 'sk-';
+```html
+const chatGPTKey = 'sk-'; // Paste the API key here
 ```
 
 Replace `'sk-*****'` with your actual OpenAI GPT-3 API key.
 
-2. ***Start the local server***
+2. **Start the local server**
 
 Navigate to the directory containing `index.html` and start your local server. For example, if you're using Python's SimpleHTTPServer, you can start it with the command:
 
-```
+```bash
 python -m SimpleHTTPServer
 ```
 
@@ -38,7 +38,7 @@ http-server
 
 3. **Access the application**
 
-Open your web browser and navigate to localhost on the port your server is running. For example, if your server is running on port 8000, you would navigate to ``http://localhost:8000``.
+Open your web browser and navigate to localhost on the port your server is running. For example, if your server is running on port 8000, you would navigate to `http://localhost:8000`.
 
 4. **Interact with the chat application**
 
@@ -50,7 +50,7 @@ Please note that this is a simple setup meant for local development and testing.
 
 1. **Download model**
 
-Create a folder named `models`, then download ```mistral-7b-openorca.Q4_0.gguf``` from here <https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca> and put into the `models` folder
+Create a folder named `models`, then download `mistral-7b-openorca.Q4_0.gguf` from here <https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca> and put into the `models` folder
 
 2. **Install llama_cpp Python**
 
