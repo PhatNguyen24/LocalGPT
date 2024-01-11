@@ -12,7 +12,7 @@ Ensure you have the following:
 
 ### Start the app using OpenAI API
 
-1. **Set up the API key**
+1. *****Set up the API key*****
 
 Open the `index.html` file and locate the following line:
 
