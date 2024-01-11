@@ -10,7 +10,7 @@ Ensure you have the following:
 - A local web server (like Python's SimpleHTTPServer, Node's http-server, etc.). Or you can use Live Server feature from VSCode
 - An API key from OpenAI for API access. Or a laptop/PC with >8GB RAM
 
-## Start the app using OpenAI API
+### Start the app using OpenAI API
 
 1. **Set up the API key**
 
@@ -22,7 +22,7 @@ const chatGPTKey = 'sk-'; // Paste the API key here
 
 Replace `'sk-*****'` with your actual OpenAI GPT-3 API key.
 
-2. *Start the local server*
+2. ***Start the local server***
 
 Navigate to the directory containing `index.html` and start your local server. For example, if you're using Python's SimpleHTTPServer, you can start it with the command:
 
