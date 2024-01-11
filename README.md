@@ -38,7 +38,7 @@ http-server
 
 3. **Access the application**
 
-Open your web browser and navigate to localhost on the port your server is running. For example, if your server is running on port 8000, you would navigate to `http://localhost:8000`.
+Open your web browser and navigate to localhost on the port your server is running. For example, if your server is running on port 8000, you would navigate to ``http://localhost:8000``.
 
 4. **Interact with the chat application**
 
