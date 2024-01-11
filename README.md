@@ -17,7 +17,7 @@ Ensure you have the following:
 Open the `index.html` file and locate the following line:
 
 ```abcd
-const chatGPTKey = 'sk-'; // Paste the API key here
+const chatGPTKey = 'sk-';
 ```
 
 Replace `'sk-*****'` with your actual OpenAI GPT-3 API key.
