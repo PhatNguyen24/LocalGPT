@@ -79,7 +79,7 @@
   // const OPEN_AI_ENDPOINT = 'https://api.openai.com/v1'
 
   // Security, do not deploy this in production
-  const chatGPTKey = 'sk-*****'; // Create an API key from here
+  const chatGPTKey = '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'; // Create an API key from here
 
   // Local GPT
   const OPEN_AI_ENDPOINT = 'http://localhost:8000/v1'
@@ -92,9 +92,6 @@
         content: "You're a helpful chat bot."
       }]);
       const isLoading = ref(false);
-
-
-
 
       const messageClasses = (role) => ({
         'text-right justify-end': role === 'user',
